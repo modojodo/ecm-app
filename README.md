@@ -20,3 +20,13 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+# Automation Tests
+
+This project is using the Playwright framework for adding automation tests, to run them locally please run the tests below
+
+`npx playwright test`
+
+For debugging, following command would open the debugger
+
+`npx playwright test --debug`
